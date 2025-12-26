@@ -1,0 +1,56 @@
+.navbar {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.search-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-left: auto;
+}
+
+.nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.menu-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-column h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.menu-column a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 5px 0;
+}
